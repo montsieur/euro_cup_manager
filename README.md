@@ -1,0 +1,1 @@
+# Euro Cup Manager
