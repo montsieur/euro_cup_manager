@@ -1,7 +1,7 @@
 def display_matches(matches):
     try:
         for match in matches:
-            print(f"{match["Date"]}: {match['Team A']}: {match['Score A']} - {match['Score B']} {match['Team B']}")
+            print(f"{match['Date']}: {match['Team A']}: {match['Score A']} - {match['Score B']} {match['Team B']}")
     except KeyError as e:
         print(f"Error displaying matches: Missing key {e}")
     except Exception as e:
